@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Homepage</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      color: #333;
+      line-height: 1.6;
+    }
+    .profile-header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 24px;
+      margin-bottom: 24px;
+    }
+    .profile-img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    h1 { margin-bottom: 4px; }
+    .subtitle { color: #555; margin: 0 0 8px 0; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    nav a { margin-right: 12px; font-weight: 500; }
+    h2 { border-bottom: 1px solid #e1e4e8; padding-bottom: 6px; margin-top: 36px; }
+    .news-list { list-style: none; padding-left: 0; }
+    .news-list li { margin-bottom: 8px; }
+    .date { font-weight: bold; margin-right: 8px; color: #444; }
+    .pub-item { margin-bottom: 18px; }
+    .pub-title { font-weight: bold; }
+    .pub-authors { color: #555; font-size: 0.95em; }
+    .pub-venue { font-style: italic; color: #333; font-size: 0.95em; }
+    .pub-links a { font-size: 0.9em; margin-right: 8px; }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="profile-header">
+    <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+    <div>
+      <h1>Your Name</h1>
+      <p class="subtitle">Ph.D. Student / Researcher · University Name</p>
+      <p>email [at] example [dot] com<br>
+      <a href="#">CV</a> | <a href="#">Google Scholar</a> | <a href="#">GitHub</a> | <a href="#">LinkedIn</a></p>
+    </div>
+  </header>
+
+  <!-- Quick Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#news">News</a>
+    <a href="#publications">Publications</a>
+    <a href="#projects">Projects</a>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a researcher in [Field] at [Institution], working on [topics]. Previously, I completed my degrees at [School/Lab].</p>
+  </section>
+
+  <!-- News Section -->
+  <section id="news">
+    <h2>News</h2>
+    <ul class="news-list">
+      <li><span class="date">08/2026</span> Paper accepted at [Conference/Journal]!</li>
+      <li><span class="date">01/2026</span> Joined [Lab/Company] as a research intern.</li>
+    </ul>
+  </section>
+
+  <!-- Publications Section -->
+  <section id="publications">
+    <h2>Selected Publications</h2>
+    <div class="pub-item">
+      <div class="pub-title">Your Paper Title Goes Here</div>
+      <div class="pub-authors"><strong>Your Name</strong>, Co-Author One, Co-Author Two</div>
+      <div class="pub-venue">Conference / Journal Name, 2026</div>
+      <div class="pub-links">
+        <a href="#">[Paper]</a>
+        <a href="#">[Code]</a>
+        <a href="#">[Project Page]</a>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
